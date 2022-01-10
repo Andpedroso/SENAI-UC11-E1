@@ -30,6 +30,10 @@ public class Teste
 	{
 		driver.get( "http://online.sp.senai.br/" );
 		
+		//WebElement input = driver.findElement( By.id( "Busca1_txtFiltro" ) );
+		
+		//input.sendKeys( "Mecânica" );
+		
 		driver.findElement( By.id("ImgLogo") ).click();
 	}
 	
